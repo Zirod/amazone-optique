@@ -104,20 +104,6 @@
                     '
                 ]);
 
-                // $requette = "INSERT INTO message_table (nom, prenom, email, telephone, contenue, date, lu) VALUE(?,?,?,?,?,?,?)";
-                // $save_message = $this->connexion->prepare($requette);
-                // $save_message->execute(array(
-                //     htmlspecialchars($this->data['nom']),
-                //     htmlspecialchars($this->data['prenom']),
-                //     htmlspecialchars($this->data['email']),
-                //     htmlspecialchars($this->data['objet']),
-                //     htmlspecialchars($this->data['telephone']),
-                //     htmlspecialchars($this->data['contenue']),
-                //     date('d/m/Y'),
-                //     0
-                // ));
-
-
 
             } catch (Exception $e) {
                 echo json_encode([
