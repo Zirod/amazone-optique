@@ -10,5 +10,3 @@
         }
         return $pdo;
     }
-
-    // password: yzrH1Y5c20 / username :  if0_38873289! // mail pass :: amazoneoptique@2025 //  date :: zirod date // 
